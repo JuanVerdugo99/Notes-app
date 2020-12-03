@@ -24,6 +24,7 @@ app.use(express.urlencoded({extended: false}))
 
 // Routes
 app.use(require('./routes/index.routes'))
+app.use(require('./routes/notes.routes'))
 // app.get('/', (req, res) => {
 //     res.render('index')
 // })
